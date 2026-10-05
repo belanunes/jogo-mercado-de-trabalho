@@ -1,0 +1,45 @@
+:root{
+    --cor-fundo: #92614cad;
+    --cor-principal: #F6F4D2 ;
+    --cor-secundaria: #e6ccb2; 
+    --cor-destaque: #7f5539;
+    --cor-texto: #000000;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.caixa-principal{
+    background-color: var(--cor-principal);
+    width: 90%;
+    max-width: 700px;
+    text-align: center;
+    padding: 50px;
+    font-size: x-large;
+}
+
+h1{
+    color: var(--cor-destaque);
+}
+
+button {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 70px;
+    padding: 40px;
+    transition: background-color 0.3s;
+    font-size: large;
+}
+
+button:hover{
+    background-color: var(--cor-destaque);
+    color: var(--cor-principal);
+}
